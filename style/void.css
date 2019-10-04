@@ -1,0 +1,32 @@
+/*
+$$$$$$$$\ $$\                       $$$$$$$\                                $$\       
+\__$$  __|$$ |                      $$  __$$\                               $$ |      
+   $$ |   $$$$$$$\   $$$$$$\        $$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$$\ $$$$$$$\  
+   $$ |   $$  __$$\ $$  __$$\       $$$$$$$  |$$  __$$\  \____$$\ $$  _____|$$  __$$\ 
+   $$ |   $$ |  $$ |$$$$$$$$ |      $$  __$$< $$$$$$$$ | $$$$$$$ |$$ /      $$ |  $$ |
+   $$ |   $$ |  $$ |$$   ____|      $$ |  $$ |$$   ____|$$  __$$ |$$ |      $$ |  $$ |
+   $$ |   $$ |  $$ |\$$$$$$$\       $$ |  $$ |\$$$$$$$\ \$$$$$$$ |\$$$$$$$\ $$ |  $$ |
+   \__|   \__|  \__| \_______|      \__|  \__| \_______| \_______| \_______|\__|  \__|
+*/
+/*Devs: Marsimplodation, The Pale Rider (Ares)*/
+
+/*Some Body Stuff*/
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+body{
+color: white;
+background-image: url('../images/tenor.gif');
+min-height: 100%;
+background-position: center;
+background-size: cover;
+background-color: #cccccc;
+}
+
+/*Some Font stuff*/
+h1{
+  text-align: center;
+}
+
+.spacer{
+  height: 1%;
+}
