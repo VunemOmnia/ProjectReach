@@ -26,3 +26,7 @@ background-color: #cccccc;
 h1{
   text-align: center;
 }
+
+.spacer{
+  height: 1%;
+}
