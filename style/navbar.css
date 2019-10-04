@@ -9,20 +9,36 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
    \__|   \__|  \__| \_______|      \__|  \__| \_______| \_______| \_______|\__|  \__|
 */
 /*Devs: Marsimplodation, The Pale Rider (Ares)*/
-
-/*Some Body Stuff*/
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-body{
-color: white;
-background-image: url('../images/1.jpg');
-min-height: 100%;
-background-position: center;
-background-size: cover;
-background-color: #cccccc;
-}
-
-/*Some Font stuff*/
-h1{
-  text-align: center;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  a {
+    float: left;
+  }
+  
+  a li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a li:hover {
+    background-color: #111;
+  }
+  
+  .active li:hover{
+    background-color: rgb(26, 11, 53);
+  }
+  .active{
+    background-color:  rgb(26, 11, 53);
+  }
