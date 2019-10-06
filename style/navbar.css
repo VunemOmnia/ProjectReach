@@ -49,7 +49,20 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
   background-position: center;
   background-size: cover;
   }
-  
+
+  #patreon{
+ background-image: url('../images/patreon.png');
+ min-height: 100%
+ background-position:center;
+ background-size: cover;  
+}
+
+#twitter{
+ background-image: url('../images/twitter.png');
+ min-height: 100%
+ background-position: center;
+  background-size: cover;
+}  
 .support{
       position: fixed;
       bottom: 0px;
