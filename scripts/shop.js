@@ -13,8 +13,9 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
 
 //the function to add a new product
 function add(image_url, url, name){
-    var spacer = document.createElement("div")
-    spacer.style="width: 5px; height: 5px; float: left;";
+    //creating spacer
+    var spacer_x= document.createElement("div")
+    spacer_x.style="width: 5px; height: 5px; float: left;"; 
 
     //the name
     var text = document.createElement("h2")
@@ -37,10 +38,15 @@ function add(image_url, url, name){
     //showing all on the site
     var shop_window = document.getElementById("shop");
     shop_window.appendChild(div);
-    shop_window.appendChild(spacer);
+    shop_window.appendChild(spacer_x);
 }
 
-//adding phone and pillow
+//adding products
 add("https://vangogh.teespring.com/v3/image/OC1XZ_DFEDBbaWo3XG9Aitaf-Kg/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=649","Phone Case"); //phone case
 add("https://vangogh.teespring.com/v3/image/yP-nsgIangQM_FTHWOhmswCgdTA/480/560.jpg", "https://teespring.com/the-reach-home-collection?pid=650", "Pillow"); //pillow
-add("https://vangogh.teespring.com/v3/image/PvM-66d8d90XH3NHoGno898Ts_Y/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=659","Mug")
+add("https://vangogh.teespring.com/v3/image/PvM-66d8d90XH3NHoGno898Ts_Y/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=659","Mug"); //Mug
+add("https://vangogh.teespring.com/v3/image/RIucM-MrO1o3DSGik23GeOYpGWk/480/560.jpg", "https://teespring.com/the-reach-home-collection?pid=442", "Tote Bag"); //Tote Bage
+add("https://vangogh.teespring.com/v3/image/Ru7AuBxtPkUWJ5POeaJQgxDgSe8/480/560.jpg", "https://teespring.com/the-reach-home-collection?pid=726", "Fleece Blanket"); //Flece Blanket
+add("https://vangogh.teespring.com/v3/image/wsIP0jEJWtKbWX4Jbn5VukSVlVs/480/560.jpg", "https://teespring.com/the-reach-home-collection?pid=651", "Beach Towel"); // Beach Towel
+add("https://vangogh.teespring.com/v3/image/ixigzNj5aC19lkZWGnFekwjcVig/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=661","Sticker"); //sticker
+add("https://vangogh.teespring.com/v3/image/iOLvh1KLRK3r20HmISIKbHzMbW8/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=657","Wall Tapestry"); // Wall Tapestry
