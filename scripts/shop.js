@@ -14,12 +14,13 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
 //the function to add a new product
 function add(image_url, url, name){
     //creating spacer
-    var spacer_x= document.createElement("div")
-    spacer_x.style="width: 5px; height: 5px; float: left;"; 
+    var spacer= document.createElement("div")
+    spacer.style="width: fit-content; padding: 2px; float: left;"; 
 
     //the name
     var text = document.createElement("h2")
     text.innerHTML=name;
+    text.style="bottom: 15%; position: relative;"
 
     //the image
     var img = document.createElement("img");
@@ -31,14 +32,16 @@ function add(image_url, url, name){
 
     //creating the div and adiing stuff to it
     var div = document.createElement("div");
-    div.style="text-align: center; color: black; height: 30%; width: fit-content; background-color: grey; border-radius: 3%; float: left;";
+    div.style="text-align: center; color: black; height: 200px; width: 150px; background-color: grey; border-radius: 3%; float: left;";
     div.appendChild(img);
     div.appendChild(text);
 
+    //add space
+    spacer.appendChild(div);
+
     //showing all on the site
     var shop_window = document.getElementById("shop");
-    shop_window.appendChild(div);
-    shop_window.appendChild(spacer_x);
+    shop_window.appendChild(spacer);
 }
 
 //adding products
