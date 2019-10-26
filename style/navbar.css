@@ -69,6 +69,6 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
     padding: 0;
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: fixed;
     bottom: 0px;
   }
