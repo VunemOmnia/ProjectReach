@@ -33,7 +33,7 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
   }
   
   a li:hover {
-    background-color: #111;
+    background-color: rgb(66, 66, 66);
   }
   
   .active li:hover{

@@ -10,23 +10,16 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
 */
 /*Devs: Marsimplodation, The Pale Rider (Ares)*/
 
-/*Some Body Stuff*/
-body,h1,h2 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-body{
-color: black;
-background-image: url('../images/Logo.png');
-min-height: 100%;
-background-position: center;
-background-size: cover;
-background-color: #cccccc;
-}
-
-/*Some Font stuff*/
-h1,h2{
-  text-align: center;
-}
-
-.spacer{
-  height: 1%;
+.shop{
+    color: black;
+    background-color: rgba(53, 53, 53, 0.342);
+    width: 80%;
+    height: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
