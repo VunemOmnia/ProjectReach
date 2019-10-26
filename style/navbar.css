@@ -70,6 +70,5 @@ $$$$$$$$\ $$\                       $$$$$$$\                                $$\
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-      position: sticky;
-      bottom: 0px;
+    bottom: 0px;
   }
