@@ -53,3 +53,10 @@ add("https://vangogh.teespring.com/v3/image/Ru7AuBxtPkUWJ5POeaJQgxDgSe8/480/560.
 add("https://vangogh.teespring.com/v3/image/wsIP0jEJWtKbWX4Jbn5VukSVlVs/480/560.jpg", "https://teespring.com/the-reach-home-collection?pid=651", "Beach Towel"); // Beach Towel
 add("https://vangogh.teespring.com/v3/image/ixigzNj5aC19lkZWGnFekwjcVig/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=661","Sticker"); //sticker
 add("https://vangogh.teespring.com/v3/image/iOLvh1KLRK3r20HmISIKbHzMbW8/480/560.jpg","https://teespring.com/the-reach-home-collection?pid=657","Wall Tapestry"); // Wall Tapestry
+
+var viewMode = getCookie("view-mode");
+if(viewMode == "desktop"){
+    viewport.setAttribute('content', 'width=1024');
+}else if (viewMode == "mobile"){
+    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
+}
